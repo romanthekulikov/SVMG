@@ -7,6 +7,7 @@ val FlowClass = ClassName("kotlinx.coroutines", listOf("flow"))
 val MutableStateFlowClass = ClassName("kotlinx.coroutines.flow", simpleNames = listOf("MutableStateFlow"))
 val StateFlowClass = ClassName("kotlinx.coroutines.flow", simpleNames = listOf("StateFlow"))
 val BooleanClass = ClassName("kotlin", listOf("Boolean"))
+val AutoCloseableClass = ClassName("java.io", "Closeable")
 
 val FlowFunctions = listOf("asStateFlow", "update")
 

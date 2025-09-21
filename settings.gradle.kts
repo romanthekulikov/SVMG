@@ -23,4 +23,3 @@ rootProject.name = "SVMG"
 include(":app")
 include(":generator")
 include(":generator:processor")
-include(":generator:annotations")

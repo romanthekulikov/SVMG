@@ -15,7 +15,6 @@ kotlin {
 }
 
 dependencies {
-    implementation(project(":generator:annotations"))
     implementation("com.squareup:kotlinpoet-ksp:2.0.0")
     implementation("com.google.devtools.ksp:symbol-processing-api:2.1.0-1.0.29")
 }

@@ -1,14 +1,6 @@
 package com.roman_kulikov.processor.annotations
 
 /**
- * This annotation for class with UI State
- */
-
-@Target(AnnotationTarget.CLASS, AnnotationTarget.FILE)
-@Retention(AnnotationRetention.RUNTIME)
-annotation class UIState
-
-/**
  * This annotation specifies what functions to create for the field.
  *
  * @param target: array of [FunctionTarget], available target are:

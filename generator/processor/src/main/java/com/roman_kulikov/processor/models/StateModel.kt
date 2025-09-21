@@ -7,5 +7,6 @@ internal data class StateModel(
     val packageName: String,
     val name: String,
     val properties: List<PropertySpec>,
-    val functions: List<FunSpec>
+    val functions: List<FunSpec>,
+    val constructors: List<FunSpec>
 )

@@ -7,7 +7,5 @@ import com.roman_kulikov.processor.annotations.UIState
 @UIState
 data class MainState(
     @StateField(FunctionTarget.SET)
-    val age: Int = 0,
-    @StateField(FunctionTarget.SET)
-    val name: String = ""
+    val humanParam: HumanParam = HumanParam("", 0)
 )
