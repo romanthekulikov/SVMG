@@ -22,7 +22,7 @@ afterEvaluate {
                 from(components["java"])
                 groupId = "com.github.romanthekulikov"
                 artifactId = "generator"
-                version = "0.1.0"
+                version = "0.1.2"
             }
         }
     }
