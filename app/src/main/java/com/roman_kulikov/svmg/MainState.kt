@@ -5,7 +5,7 @@ import com.roman_kulikov.processor.annotations.StateField
 import com.roman_kulikov.processor.annotations.UIState
 
 @UIState
-data class MainState(
+class MainState(
     @StateField(FunctionTarget.SET)
     val humanParam: HumanParam = HumanParam("", 0)
 )
